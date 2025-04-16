@@ -1,0 +1,4 @@
+[flake8]
+max-line-length = 100
+exclude = dmarket_bot_env/,tests/
+ignore = E203,W503

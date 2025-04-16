@@ -1,0 +1,85 @@
+[pylint]
+max-line-length = 100
+disable = C0114  # Отключить требование docstring для модуля
+
+[MASTER]
+# Указываем, какие файлы игнорировать при проверке
+ignore=dmarket_bot_env/Lib/site-packages
+extension-pkg-whitelist=
+    # Модули, которые могут вызывать проблемы с pylint
+    lxml,ujson,numpy
+
+[MESSAGES CONTROL]
+# Отключаем проверки для конкретных ошибок
+disable=C0111,C0103,C0303,W0611,R0903,W0212,W0703,R0201,W0621,R0913,C0330,C1801,W0702,W0235,W0613,W0201,W0511,R0914,R0915,R0902,R0801,E0401
+missing-docstring,
+    invalid-name,
+    unused-import,
+    unused-variable,
+    unused-argument,
+    too-many-arguments,
+    too-many-locals,
+    too-many-instance-attributes,
+    too-many-public-methods,
+    too-many-branches,
+    too-many-statements,
+    too-few-public-methods,
+    protected-access,
+    broad-except,
+    no-self-use,
+    no-member,
+    fixme,
+    duplicate-code,
+    redefined-outer-name,
+    consider-using-f-string,
+    unnecessary-lambda,
+    assignment-from-none,
+    unsubscriptable-object,
+    used-before-assignment,
+    import-outside-toplevel,
+    unnecessary-pass,
+    attribute-defined-outside-init,
+    redefined-builtin,
+    line-too-long,
+    arguments-differ,
+    consider-using-with,
+    unspecified-encoding,
+    logging-fstring-interpolation,
+    singleton-comparison
+
+[TYPECHECK]
+# Игнорируем проблемы с типами
+ignored-modules=aiohttp.client
+ignored-classes=ClientTimeout,aiohttp,ClientSession,ClientError,ClientConnectionError
+numpy,torch,optparse.Values,thread._local,_thread._local
+
+generated-members=objects,DoesNotExist,id,pk,_meta,base_fields,context
+
+[FORMAT]
+max-line-length=100
+
+[VARIABLES]
+# Позволяет игнорировать аргументы, начинающиеся с определенных префиксов
+dummy-variables-rgx=(_+[a-zA-Z0-9_]*?$)|dummy|args|kwargs
+
+[DESIGN]
+# Максимальное количество аргументов для функции
+max-args=8
+# Максимальное количество локальных переменных в функции
+max-locals=20
+# Максимальная сложность ветвления
+max-branches=15
+# Максимальная сложность цикломатическая 
+max-complexity=15
+# Максимальное количество состояний
+max-statements=60
+# Максимальное количество атрибутов для класса
+max-attributes=20
+# Минимальные общественные методы
+min-public-methods=1
+# Максимальные общественные методы
+max-public-methods=30
+
+[IMPORTS]
+# Игнорировать некоторые модули при проверке импортов
+ignored-modules=numpy,torch,tensorflow,requests

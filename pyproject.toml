@@ -1,0 +1,72 @@
+[tool.mypy]
+python_version = "3.9"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+ignore_missing_imports = true
+follow_imports = "silent"
+
+[[tool.mypy.overrides]]
+module = ["aiohttp.client.*"]
+ignore_errors = true
+
+[[tool.mypy.overrides]]
+module = ["dmarket_bot_env.*"]
+ignore_errors = true
+
+[tool.pyright]
+# Общие настройки
+typeCheckingMode = "basic"
+useLibraryCodeForTypes = true
+reportMissingImports = false
+reportMissingModuleSource = false
+reportMissingTypeStubs = false
+reportPrivateImportUsage = false
+
+# Настройки для Jupyter Notebooks
+pythonVersion = "3.11"
+extraPaths = ["./dmarket_bot_env/Lib/site-packages"]
+
+[tool.pylance]
+reportAssignmentType = false
+reportReturnType = false
+reportGeneralTypeIssues = "warning"
+reportMissingTypeStubs = false
+
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | dmarket_bot_env
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 100
+multi_line_output = 3
+include_trailing_comma = true
+skip_glob = ["**/.venv/*", "**/dmarket_bot_env/*"]
+
+[tool.flake8]
+max-line-length = 100
+exclude = [".git", "__pycache__", "*.pyc", ".venv", "dmarket_bot_env"]
+ignore = ["E203", "E501", "W503"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_functions = "test_*"
+python_classes = "Test*"

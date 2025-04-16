@@ -1,0 +1,155 @@
+2025-04-15 12:31:54,662 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.api_wrapper -> api_wrapper
+2025-04-15 12:31:57,818 - src.ml - INFO - ML модули успешно импортированы.
+2025-04-15 12:31:57,820 - src.utils.module_aliases - INFO - Настроен псевдоним: src.arbitrage.bellman_ford -> bellman_ford
+2025-04-15 12:31:57,820 - src.utils.module_aliases - INFO - Настроен псевдоним: src.arbitrage.linear_programming -> linear_programming
+2025-04-15 12:31:57,820 - src.utils.module_aliases - INFO - Настроен псевдоним: src.ml.ml_predictor -> ml_predictor
+2025-04-15 12:31:57,837 - risk_assessment - INFO - База данных для оценки рисков успешно инициализирована
+2025-04-15 12:31:57,838 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_adapter -> utils.api_adapter
+2025-04-15 12:31:57,842 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_client -> utils.api_client
+2025-04-15 12:31:57,855 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.marketplace_api -> utils.marketplace_api
+2025-04-15 12:31:57,862 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.marketplace_integrator -> utils.marketplace_integrator
+2025-04-15 12:31:57,863 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.market_analyzer -> utils.market_analyzer
+2025-04-15 12:31:57,987 - config_manager - INFO - ConfigManager инициализирован с 19 настройками
+2025-04-15 12:31:57,988 - DM.utils.error_reporting - WARNING - Не указан DSN для Sentry. Интеграция отключена
+2025-04-15 12:31:57,988 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.error_reporting -> utils.error_reporting
+2025-04-15 12:31:57,989 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.caching -> utils.caching
+2025-04-15 12:31:57,990 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_retry -> utils.api_retry
+2025-04-15 12:31:57,990 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.common -> utils.common
+2025-04-15 12:31:57,991 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.database -> utils.database
+2025-04-15 12:31:57,991 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.market_graph -> utils.market_graph
+2025-04-15 12:31:57,992 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.parallel_processor -> utils.parallel_processor
+2025-04-15 12:31:57,994 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.performance_metrics -> utils.performance_metrics
+2025-04-15 12:31:57,996 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.performance_monitor -> utils.performance_monitor
+2025-04-15 12:31:57,998 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.rate_limiter -> utils.rate_limiter
+2025-04-15 12:31:57,999 - risk_assessment - INFO - База данных для оценки рисков успешно инициализирована
+2025-04-15 12:31:57,999 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.risk_assessment -> utils.risk_assessment
+2025-04-15 12:31:58,008 - cache_manager - INFO - Инициализирован MemoryCache: max_size=1000, max_memory_mb=128, ttl=300
+2025-04-15 12:31:58,008 - cache_manager - INFO - Инициализирован DiskCache: cache_dir=DM\cache, ttl=300, max_size=1000
+2025-04-15 12:31:58,008 - cache_manager - INFO - CacheManager инициализирован: default_ttl=300
+2025-04-15 12:31:58,009 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.ui.pagination -> utils.pagination
+2025-04-15 12:31:58,009 - src.utils.module_aliases - INFO - Настроено 21/21 псевдонимов модулей
+2025-04-15 12:31:58,010 - run - INFO - Настроено 21/21 псевдонимов модулей через utils.module_aliases
+2025-04-15 12:32:46,883 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.api_wrapper -> api_wrapper
+2025-04-15 12:32:49,953 - src.ml - INFO - ML модули успешно импортированы.
+2025-04-15 12:32:49,955 - src.utils.module_aliases - INFO - Настроен псевдоним: src.arbitrage.bellman_ford -> bellman_ford
+2025-04-15 12:32:49,955 - src.utils.module_aliases - INFO - Настроен псевдоним: src.arbitrage.linear_programming -> linear_programming
+2025-04-15 12:32:49,955 - src.utils.module_aliases - INFO - Настроен псевдоним: src.ml.ml_predictor -> ml_predictor
+2025-04-15 12:32:49,959 - risk_assessment - INFO - База данных для оценки рисков успешно инициализирована
+2025-04-15 12:32:49,960 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_adapter -> utils.api_adapter
+2025-04-15 12:32:49,961 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_client -> utils.api_client
+2025-04-15 12:32:49,968 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.marketplace_api -> utils.marketplace_api
+2025-04-15 12:32:49,970 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.marketplace_integrator -> utils.marketplace_integrator
+2025-04-15 12:32:49,971 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.market_analyzer -> utils.market_analyzer
+2025-04-15 12:32:50,053 - config_manager - INFO - ConfigManager инициализирован с 19 настройками
+2025-04-15 12:32:50,055 - DM.utils.error_reporting - WARNING - Не указан DSN для Sentry. Интеграция отключена
+2025-04-15 12:32:50,055 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.error_reporting -> utils.error_reporting
+2025-04-15 12:32:50,055 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.caching -> utils.caching
+2025-04-15 12:32:50,055 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_retry -> utils.api_retry
+2025-04-15 12:32:50,057 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.common -> utils.common
+2025-04-15 12:32:50,057 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.database -> utils.database
+2025-04-15 12:32:50,057 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.market_graph -> utils.market_graph
+2025-04-15 12:32:50,060 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.parallel_processor -> utils.parallel_processor
+2025-04-15 12:32:50,062 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.performance_metrics -> utils.performance_metrics
+2025-04-15 12:32:50,062 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.performance_monitor -> utils.performance_monitor
+2025-04-15 12:32:50,063 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.rate_limiter -> utils.rate_limiter
+2025-04-15 12:32:50,065 - risk_assessment - INFO - База данных для оценки рисков успешно инициализирована
+2025-04-15 12:32:50,066 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.risk_assessment -> utils.risk_assessment
+2025-04-15 12:32:50,068 - cache_manager - INFO - Инициализирован MemoryCache: max_size=1000, max_memory_mb=128, ttl=300
+2025-04-15 12:32:50,069 - cache_manager - INFO - Инициализирован DiskCache: cache_dir=DM\cache, ttl=300, max_size=1000
+2025-04-15 12:32:50,069 - cache_manager - INFO - CacheManager инициализирован: default_ttl=300
+2025-04-15 12:32:50,069 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.ui.pagination -> utils.pagination
+2025-04-15 12:32:50,069 - src.utils.module_aliases - INFO - Настроено 21/21 псевдонимов модулей
+2025-04-15 12:32:50,069 - run - INFO - Настроено 21/21 псевдонимов модулей через utils.module_aliases
+2025-04-15 12:33:44,962 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.api_wrapper -> api_wrapper
+2025-04-15 12:33:48,144 - src.ml - INFO - ML модули успешно импортированы.
+2025-04-15 12:33:48,146 - src.utils.module_aliases - INFO - Настроен псевдоним: src.arbitrage.bellman_ford -> bellman_ford
+2025-04-15 12:33:48,146 - src.utils.module_aliases - INFO - Настроен псевдоним: src.arbitrage.linear_programming -> linear_programming
+2025-04-15 12:33:48,146 - src.utils.module_aliases - INFO - Настроен псевдоним: src.ml.ml_predictor -> ml_predictor
+2025-04-15 12:33:48,152 - risk_assessment - INFO - База данных для оценки рисков успешно инициализирована
+2025-04-15 12:33:48,152 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_adapter -> utils.api_adapter
+2025-04-15 12:33:48,153 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_client -> utils.api_client
+2025-04-15 12:33:48,160 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.marketplace_api -> utils.marketplace_api
+2025-04-15 12:33:48,162 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.marketplace_integrator -> utils.marketplace_integrator
+2025-04-15 12:33:48,163 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.market_analyzer -> utils.market_analyzer
+2025-04-15 12:33:48,246 - config_manager - INFO - ConfigManager инициализирован с 19 настройками
+2025-04-15 12:33:48,246 - DM.utils.error_reporting - WARNING - Не указан DSN для Sentry. Интеграция отключена
+2025-04-15 12:33:48,248 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.error_reporting -> utils.error_reporting
+2025-04-15 12:33:48,248 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.caching -> utils.caching
+2025-04-15 12:33:48,248 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_retry -> utils.api_retry
+2025-04-15 12:33:48,248 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.common -> utils.common
+2025-04-15 12:33:48,250 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.database -> utils.database
+2025-04-15 12:33:48,251 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.market_graph -> utils.market_graph
+2025-04-15 12:33:48,252 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.parallel_processor -> utils.parallel_processor
+2025-04-15 12:33:48,254 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.performance_metrics -> utils.performance_metrics
+2025-04-15 12:33:48,254 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.performance_monitor -> utils.performance_monitor
+2025-04-15 12:33:48,255 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.rate_limiter -> utils.rate_limiter
+2025-04-15 12:33:48,257 - risk_assessment - INFO - База данных для оценки рисков успешно инициализирована
+2025-04-15 12:33:48,258 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.risk_assessment -> utils.risk_assessment
+2025-04-15 12:33:48,260 - cache_manager - INFO - Инициализирован MemoryCache: max_size=1000, max_memory_mb=128, ttl=300
+2025-04-15 12:33:48,260 - cache_manager - INFO - Инициализирован DiskCache: cache_dir=DM\cache, ttl=300, max_size=1000
+2025-04-15 12:33:48,260 - cache_manager - INFO - CacheManager инициализирован: default_ttl=300
+2025-04-15 12:33:48,261 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.ui.pagination -> utils.pagination
+2025-04-15 12:33:48,261 - src.utils.module_aliases - INFO - Настроено 21/21 псевдонимов модулей
+2025-04-15 12:33:48,261 - run - INFO - Настроено 21/21 псевдонимов модулей через utils.module_aliases
+2025-04-15 12:35:13,542 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.api_wrapper -> api_wrapper
+2025-04-15 12:35:16,690 - src.ml - INFO - ML модули успешно импортированы.
+2025-04-15 12:35:16,692 - src.utils.module_aliases - INFO - Настроен псевдоним: src.arbitrage.bellman_ford -> bellman_ford
+2025-04-15 12:35:16,692 - src.utils.module_aliases - INFO - Настроен псевдоним: src.arbitrage.linear_programming -> linear_programming
+2025-04-15 12:35:16,692 - src.utils.module_aliases - INFO - Настроен псевдоним: src.ml.ml_predictor -> ml_predictor
+2025-04-15 12:35:16,696 - risk_assessment - INFO - База данных для оценки рисков успешно инициализирована
+2025-04-15 12:35:16,697 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_adapter -> utils.api_adapter
+2025-04-15 12:35:16,698 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_client -> utils.api_client
+2025-04-15 12:35:16,706 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.marketplace_api -> utils.marketplace_api
+2025-04-15 12:35:16,707 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.marketplace_integrator -> utils.marketplace_integrator
+2025-04-15 12:35:16,708 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.market_analyzer -> utils.market_analyzer
+2025-04-15 12:35:16,798 - config_manager - INFO - ConfigManager инициализирован с 19 настройками
+2025-04-15 12:35:16,798 - DM.utils.error_reporting - WARNING - Не указан DSN для Sentry. Интеграция отключена
+2025-04-15 12:35:16,800 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.error_reporting -> utils.error_reporting
+2025-04-15 12:35:16,800 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.caching -> utils.caching
+2025-04-15 12:35:16,800 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_retry -> utils.api_retry
+2025-04-15 12:35:16,800 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.common -> utils.common
+2025-04-15 12:35:16,802 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.database -> utils.database
+2025-04-15 12:35:16,802 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.market_graph -> utils.market_graph
+2025-04-15 12:35:16,802 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.parallel_processor -> utils.parallel_processor
+2025-04-15 12:35:16,806 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.performance_metrics -> utils.performance_metrics
+2025-04-15 12:35:16,806 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.performance_monitor -> utils.performance_monitor
+2025-04-15 12:35:16,807 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.rate_limiter -> utils.rate_limiter
+2025-04-15 12:35:16,810 - risk_assessment - INFO - База данных для оценки рисков успешно инициализирована
+2025-04-15 12:35:16,810 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.risk_assessment -> utils.risk_assessment
+2025-04-15 12:35:16,813 - cache_manager - INFO - Инициализирован MemoryCache: max_size=1000, max_memory_mb=128, ttl=300
+2025-04-15 12:35:16,813 - cache_manager - INFO - Инициализирован DiskCache: cache_dir=DM\cache, ttl=300, max_size=1000
+2025-04-15 12:35:16,813 - cache_manager - INFO - CacheManager инициализирован: default_ttl=300
+2025-04-15 12:35:16,814 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.ui.pagination -> utils.pagination
+2025-04-15 12:35:16,814 - src.utils.module_aliases - INFO - Настроено 21/21 псевдонимов модулей
+2025-04-15 12:35:16,814 - run - INFO - Настроено 21/21 псевдонимов модулей через utils.module_aliases
+2025-04-15 12:35:28,138 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.api_wrapper -> api_wrapper
+2025-04-15 12:35:31,252 - src.ml - INFO - ML модули успешно импортированы.
+2025-04-15 12:35:31,254 - src.utils.module_aliases - INFO - Настроен псевдоним: src.arbitrage.bellman_ford -> bellman_ford
+2025-04-15 12:35:31,254 - src.utils.module_aliases - INFO - Настроен псевдоним: src.arbitrage.linear_programming -> linear_programming
+2025-04-15 12:35:31,254 - src.utils.module_aliases - INFO - Настроен псевдоним: src.ml.ml_predictor -> ml_predictor
+2025-04-15 12:35:31,260 - risk_assessment - INFO - База данных для оценки рисков успешно инициализирована
+2025-04-15 12:35:31,261 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_adapter -> utils.api_adapter
+2025-04-15 12:35:31,262 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_client -> utils.api_client
+2025-04-15 12:35:31,270 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.marketplace_api -> utils.marketplace_api
+2025-04-15 12:35:31,270 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.marketplace_integrator -> utils.marketplace_integrator
+2025-04-15 12:35:31,271 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.market_analyzer -> utils.market_analyzer
+2025-04-15 12:35:31,353 - config_manager - INFO - ConfigManager инициализирован с 19 настройками
+2025-04-15 12:35:31,355 - DM.utils.error_reporting - WARNING - Не указан DSN для Sentry. Интеграция отключена
+2025-04-15 12:35:31,355 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.error_reporting -> utils.error_reporting
+2025-04-15 12:35:31,355 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.caching -> utils.caching
+2025-04-15 12:35:31,355 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.api_retry -> utils.api_retry
+2025-04-15 12:35:31,357 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.common -> utils.common
+2025-04-15 12:35:31,357 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.database -> utils.database
+2025-04-15 12:35:31,357 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.market_graph -> utils.market_graph
+2025-04-15 12:35:31,359 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.parallel_processor -> utils.parallel_processor
+2025-04-15 12:35:31,361 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.performance_metrics -> utils.performance_metrics
+2025-04-15 12:35:31,362 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.performance_monitor -> utils.performance_monitor
+2025-04-15 12:35:31,363 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.rate_limiter -> utils.rate_limiter
+2025-04-15 12:35:31,364 - risk_assessment - INFO - База данных для оценки рисков успешно инициализирована
+2025-04-15 12:35:31,364 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.risk_assessment -> utils.risk_assessment
+2025-04-15 12:35:31,368 - cache_manager - INFO - Инициализирован MemoryCache: max_size=1000, max_memory_mb=128, ttl=300
+2025-04-15 12:35:31,369 - cache_manager - INFO - Инициализирован DiskCache: cache_dir=DM\cache, ttl=300, max_size=1000
+2025-04-15 12:35:31,369 - cache_manager - INFO - CacheManager инициализирован: default_ttl=300
+2025-04-15 12:35:31,369 - src.utils.module_aliases - INFO - Настроен псевдоним: DM.utils.ui.pagination -> utils.pagination
+2025-04-15 12:35:31,369 - src.utils.module_aliases - INFO - Настроено 21/21 псевдонимов модулей
+2025-04-15 12:35:31,369 - run - INFO - Настроено 21/21 псевдонимов модулей через utils.module_aliases
