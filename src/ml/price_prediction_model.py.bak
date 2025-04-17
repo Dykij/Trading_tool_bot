@@ -1,0 +1,4 @@
+﻿        if return_model:
+            return pipeline
+        else:
+            return metrics

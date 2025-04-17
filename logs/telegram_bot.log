@@ -1,0 +1,834 @@
+2025-04-06 21:22:38 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-06 21:22:38 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-06 21:22:38 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-06 21:22:38 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-06 21:22:38 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-06 21:22:38 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-06 21:22:38 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-06 21:22:38 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-06 21:22:50 - telegram_bot - INFO - Получен callback от пользователя Gudian1233 (ID: 458765683): команда=mode, параметр=auto
+2025-04-06 21:22:59 - telegram_bot - INFO - Получен callback от пользователя Gudian1233 (ID: 458765683): команда=mode, параметр=targets
+2025-04-06 21:23:00 - telegram_bot - INFO - Получен callback от пользователя Gudian1233 (ID: 458765683): команда=mode, параметр=auto
+2025-04-06 21:23:07 - telegram_bot - INFO - Получен callback от пользователя Gudian1233 (ID: 458765683): команда=period, параметр=24h
+2025-04-06 21:23:14 - telegram_bot - INFO - Получен callback от пользователя Gudian1233 (ID: 458765683): команда=market, параметр=all
+2025-04-06 21:23:19 - telegram_bot - INFO - Получен callback от пользователя Gudian1233 (ID: 458765683): команда=mode, параметр=auto
+2025-04-06 21:23:26 - telegram_bot - INFO - Получен callback от пользователя Gudian1233 (ID: 458765683): команда=select_game, параметр=cs2
+2025-04-06 21:23:42 - telegram_bot - INFO - Получен callback от пользователя Gudian1233 (ID: 458765683): команда=mode, параметр=auto
+2025-04-07 19:00:46 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:00:46 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:00:46 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:00:46 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:00:46 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:00:46 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:00:47 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:00:47 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:01:15 - telegram_bot - INFO - Callback от пользователя Gudian1233 (ID: 458765683): action:arbitrage:profit
+2025-04-07 19:01:15 - telegram_bot - INFO - Обработка команды: arbitrage, параметр: profit
+2025-04-07 19:01:23 - telegram_bot - INFO - Пользователь ID: 458765683 указал минимальную прибыль: 6.0%
+2025-04-07 19:04:07 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:04:07 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:04:07 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:04:07 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:04:07 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:04:07 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:04:08 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:04:08 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:04:13 - telegram_bot - INFO - Callback от пользователя Gudian1233 (ID: 458765683): action:arbitrage:profit
+2025-04-07 19:04:13 - telegram_bot - INFO - Обработка команды: arbitrage, параметр: profit
+2025-04-07 19:04:16 - telegram_bot - INFO - Пользователь ID: 458765683 указал минимальную прибыль: 1.0%
+2025-04-07 19:04:23 - telegram_bot - INFO - Callback от пользователя Gudian1233 (ID: 458765683): action:arbitrage:interval
+2025-04-07 19:04:23 - telegram_bot - INFO - Обработка команды: arbitrage, параметр: interval
+2025-04-07 19:04:29 - telegram_bot - INFO - Callback от пользователя Gudian1233 (ID: 458765683): action:arbitrage:games
+2025-04-07 19:04:29 - telegram_bot - INFO - Обработка команды: arbitrage, параметр: games
+2025-04-07 19:04:31 - telegram_bot - INFO - Callback от пользователя Gudian1233 (ID: 458765683): action:arbitrage:risk
+2025-04-07 19:04:31 - telegram_bot - INFO - Обработка команды: arbitrage, параметр: risk
+2025-04-07 19:04:34 - telegram_bot - INFO - Callback от пользователя Gudian1233 (ID: 458765683): action:arbitrage:profit
+2025-04-07 19:04:34 - telegram_bot - INFO - Обработка команды: arbitrage, параметр: profit
+2025-04-07 19:06:17 - telegram_bot - INFO - Пользователь ID: 458765683 указал минимальную прибыль: 2.0%
+2025-04-07 19:06:29 - telegram_bot - INFO - Callback от пользователя Gudian1233 (ID: 458765683): action:monitor:start
+2025-04-07 19:06:29 - telegram_bot - INFO - Обработка команды: monitor, параметр: start
+2025-04-07 19:06:35 - telegram_bot - INFO - Callback от пользователя Gudian1233 (ID: 458765683): action:monitor:stats
+2025-04-07 19:06:35 - telegram_bot - INFO - Обработка команды: monitor, параметр: stats
+2025-04-07 19:06:38 - telegram_bot - INFO - Callback от пользователя Gudian1233 (ID: 458765683): action:monitor:stop
+2025-04-07 19:06:38 - telegram_bot - INFO - Обработка команды: monitor, параметр: stop
+2025-04-07 19:06:39 - telegram_bot - INFO - Callback от пользователя Gudian1233 (ID: 458765683): action:monitor:settings
+2025-04-07 19:06:39 - telegram_bot - INFO - Обработка команды: monitor, параметр: settings
+2025-04-07 19:14:32 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:14:32 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:14:32 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:14:32 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:14:32 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:14:32 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:14:32 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:14:32 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:14:35 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 19:14:35 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 19:19:45 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:19:45 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:19:45 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:19:45 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:19:45 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:19:45 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:19:45 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:19:45 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:19:49 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 19:19:51 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 19:21:47 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:21:47 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:21:47 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:21:47 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:21:47 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:21:47 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:21:48 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:21:48 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:21:50 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 19:21:51 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 19:27:38 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:27:38 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:27:38 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:27:38 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:27:38 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:27:38 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:27:38 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:27:38 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:27:44 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 19:27:45 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 19:28:14 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:28:14 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:28:14 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:28:14 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:28:14 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:28:14 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:28:15 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:28:15 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:28:19 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 19:28:20 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 19:30:01 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:30:01 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:30:01 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:30:01 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:30:01 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:30:01 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:30:01 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:30:01 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:30:04 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 19:30:06 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 19:32:16 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:32:16 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:32:16 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:32:16 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:32:16 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:32:16 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:32:17 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:32:17 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:32:19 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 19:32:21 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 19:35:54 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:35:54 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:35:54 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:35:54 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:35:54 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:35:54 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:35:54 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:35:54 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:35:59 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 19:36:01 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 19:45:48 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:45:48 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:45:48 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:45:48 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:45:48 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:45:48 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:45:48 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:45:48 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:45:52 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 19:45:58 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 19:49:17 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:49:17 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:49:17 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:49:17 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:49:17 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:49:17 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:49:18 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:49:18 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:49:22 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 19:49:28 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 19:53:31 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:53:31 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:53:31 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:53:31 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:53:31 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:53:31 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:53:31 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:53:31 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:53:34 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 19:53:43 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 19:56:06 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 19:56:06 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 19:56:06 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 19:56:06 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 19:56:06 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 19:56:06 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 19:56:06 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 19:56:06 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 19:56:09 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 19:56:15 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 20:01:44 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 20:01:44 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 20:01:44 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 20:01:44 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 20:01:44 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 20:01:44 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 20:01:45 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 20:01:45 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 20:01:50 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 20:01:56 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 20:14:17 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 20:14:17 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 20:14:17 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 20:14:17 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 20:14:17 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 20:14:17 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 20:14:18 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 20:14:18 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 20:14:25 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 20:14:32 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 20:15:34 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 20:15:34 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 20:15:34 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 20:15:34 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 20:15:34 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 20:15:34 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 20:15:34 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 20:15:34 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 20:15:39 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 20:15:42 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 20:18:00 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 20:18:00 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 20:18:00 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 20:18:00 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 20:18:00 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 20:18:00 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 20:18:00 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 20:18:00 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 20:18:03 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 20:18:05 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 20:39:29 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 20:39:29 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 20:39:29 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 20:39:29 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 20:39:29 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 20:39:29 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 20:39:30 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 20:39:30 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 20:39:39 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 20:39:53 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 20:43:03 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 20:43:03 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 20:43:03 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 20:43:03 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 20:43:03 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 20:43:03 - telegram_bot - INFO - Язык системы: ('ru_RU', 'cp1251')
+2025-04-07 20:43:04 - telegram_bot - INFO - Торговый фасад успешно инициализирован
+2025-04-07 20:43:04 - telegram_bot - INFO - Соединение с DMarket API установлено
+2025-04-07 20:43:07 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 20:43:20 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 22:47:57 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 22:47:57 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 22:47:57 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 22:47:57 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 22:47:57 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 22:47:57 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-07 22:47:57 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-07 22:47:57 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-07 22:47:57 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-07 22:47:57 - telegram_bot - INFO - Обработчики команд и сообщений зарегистрированы
+2025-04-07 22:47:57 - telegram_bot - INFO - Уведомление о запуске отправлено администратору (ID: 458765683)
+2025-04-07 22:47:57 - telegram_bot - INFO - Бот успешно запущен и готов к работе
+2025-04-07 22:48:16 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 22:48:23 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-07 23:09:57 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-07 23:09:57 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-07 23:09:57 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-07 23:09:57 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-07 23:09:57 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-07 23:09:57 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-07 23:09:57 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-07 23:09:57 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-07 23:09:57 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-07 23:09:57 - telegram_bot - INFO - Обработчики команд и сообщений зарегистрированы
+2025-04-07 23:09:57 - telegram_bot - INFO - Уведомление о запуске отправлено администратору (ID: 458765683)
+2025-04-07 23:09:57 - telegram_bot - INFO - Бот успешно запущен и готов к работе
+2025-04-07 23:10:12 - telegram_bot - INFO - Получен callback от Gudian1233 (ID: 458765683): action:select_game:cs2
+2025-04-07 23:10:13 - telegram_bot - WARNING - Неизвестная команда callback: action, параметр: select_game, от пользователя Gudian1233 (ID: 458765683)
+2025-04-07 23:10:18 - telegram_bot - INFO - Получен callback от Gudian1233 (ID: 458765683): action:select_game:dota2
+2025-04-07 23:10:19 - telegram_bot - WARNING - Неизвестная команда callback: action, параметр: select_game, от пользователя Gudian1233 (ID: 458765683)
+2025-04-07 23:10:21 - telegram_bot - INFO - Получен callback от Gudian1233 (ID: 458765683): action:select_game:tf2
+2025-04-07 23:10:21 - telegram_bot - WARNING - Неизвестная команда callback: action, параметр: select_game, от пользователя Gudian1233 (ID: 458765683)
+2025-04-07 23:10:22 - telegram_bot - INFO - Получен callback от Gudian1233 (ID: 458765683): action:select_game:rust
+2025-04-07 23:10:22 - telegram_bot - WARNING - Неизвестная команда callback: action, параметр: select_game, от пользователя Gudian1233 (ID: 458765683)
+2025-04-07 23:10:25 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-07 23:10:31 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-08 07:56:02 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 07:56:02 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 07:56:02 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 07:56:02 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 07:56:02 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 07:56:02 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 07:58:17 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 07:58:17 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 07:58:17 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 07:58:17 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 07:58:17 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 07:58:17 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 07:58:55 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 07:58:55 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 07:58:55 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 07:58:55 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 07:58:55 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 07:58:55 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 09:40:30 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 09:40:30 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 09:40:30 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 09:40:30 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 09:40:30 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 09:40:30 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 09:40:31 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 09:40:31 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 09:40:31 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 09:40:31 - telegram_bot - INFO - Обработчики команд и сообщений зарегистрированы
+2025-04-08 09:40:31 - telegram_bot - INFO - Уведомление о запуске отправлено администратору (ID: 458765683)
+2025-04-08 09:40:31 - telegram_bot - INFO - Бот успешно запущен и готов к работе
+2025-04-08 09:40:45 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-08 09:40:52 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-08 09:45:22 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 09:45:22 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 09:45:22 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 09:45:22 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 09:45:22 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 09:45:22 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 09:45:22 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 09:45:22 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 09:45:22 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 09:45:22 - telegram_bot - INFO - Обработчики команд и сообщений зарегистрированы
+2025-04-08 09:45:22 - telegram_bot - INFO - Уведомление о запуске отправлено администратору (ID: 458765683)
+2025-04-08 09:45:22 - telegram_bot - INFO - Бот успешно запущен и готов к работе
+2025-04-08 09:45:29 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-08 09:45:41 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-08 11:54:01 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 11:54:01 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 11:54:01 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 11:54:01 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 11:54:01 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 11:54:01 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 11:54:01 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 11:54:01 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 11:54:01 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 11:54:01 - telegram_bot - INFO - Обработчики команд и сообщений зарегистрированы
+2025-04-08 11:54:01 - telegram_bot - INFO - Уведомление о запуске отправлено администратору (ID: 458765683)
+2025-04-08 11:54:01 - telegram_bot - INFO - Бот успешно запущен и готов к работе
+2025-04-08 11:54:09 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-08 11:54:15 - telegram_bot - INFO - Не найдены возможности с мин. прибылью 1.0%, пробуем с более низким порогом: 0.5%
+2025-04-08 12:08:09 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 12:08:09 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 12:08:09 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 12:08:09 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 12:08:09 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 12:08:09 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 12:09:23 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 12:09:23 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 12:09:23 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 12:09:23 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 12:09:23 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 12:09:23 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 12:10:19 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 12:10:19 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 12:10:19 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 12:10:19 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 12:10:19 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 12:10:19 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 12:11:28 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 12:11:28 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 12:11:28 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 12:11:28 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 12:11:28 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 12:11:28 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 14:38:11 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 14:38:11 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 14:38:11 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 14:38:11 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 14:38:11 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 14:38:11 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 14:38:11 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 14:38:11 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 14:38:11 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 14:38:11 - telegram_bot - INFO - Обработчики команд и сообщений зарегистрированы
+2025-04-08 14:38:12 - telegram_bot - INFO - Уведомление о запуске отправлено администратору (ID: 458765683)
+2025-04-08 14:38:12 - telegram_bot - INFO - Бот успешно запущен и готов к работе
+2025-04-08 14:38:33 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-08 14:38:33 - telegram_bot - ERROR - Ошибка при поиске арбитражных возможностей: TradingFacade.find_arbitrage_opportunities() got an unexpected keyword argument 'min_profit_percent'
+Traceback (most recent call last):
+  File "D:\dmarket_trading_bot\telegram_bot.py", line 501, in get_arbitrage_opportunities
+    opportunities = await trading_facade.find_arbitrage_opportunities(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: TradingFacade.find_arbitrage_opportunities() got an unexpected keyword argument 'min_profit_percent'
+2025-04-08 14:38:41 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-08 14:38:41 - telegram_bot - ERROR - Ошибка при поиске арбитражных возможностей: TradingFacade.find_arbitrage_opportunities() got an unexpected keyword argument 'min_profit_percent'
+Traceback (most recent call last):
+  File "D:\dmarket_trading_bot\telegram_bot.py", line 501, in get_arbitrage_opportunities
+    opportunities = await trading_facade.find_arbitrage_opportunities(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: TradingFacade.find_arbitrage_opportunities() got an unexpected keyword argument 'min_profit_percent'
+2025-04-08 14:44:08 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 14:44:08 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 14:44:08 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 14:44:08 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 14:44:08 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 14:44:08 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 14:44:09 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 14:44:09 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 14:44:09 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 14:44:09 - telegram_bot - INFO - Обработчики команд и сообщений зарегистрированы
+2025-04-08 14:44:09 - telegram_bot - INFO - Уведомление о запуске отправлено администратору (ID: 458765683)
+2025-04-08 14:44:09 - telegram_bot - INFO - Бот успешно запущен и готов к работе
+2025-04-08 14:44:12 - telegram_bot - INFO - Запуск поиска арбитражных возможностей с параметрами: min_profit=1.0%, budget=$100.0
+2025-04-08 14:44:12 - telegram_bot - ERROR - Ошибка при поиске арбитражных возможностей: TradingFacade.find_arbitrage_opportunities() got an unexpected keyword argument 'min_profit_percent'
+Traceback (most recent call last):
+  File "d:\dmarket_trading_bot\telegram_bot.py", line 502, in get_arbitrage_opportunities
+    opportunities = await trading_facade.find_arbitrage_opportunities(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: TradingFacade.find_arbitrage_opportunities() got an unexpected keyword argument 'min_profit_percent'
+2025-04-08 16:18:46 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 16:18:46 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 16:18:46 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 16:18:46 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 16:18:46 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 16:18:46 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 16:18:46 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 16:18:46 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 16:18:46 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 16:18:46 - telegram_bot - ERROR - Ошибка при инициализации бота: name 'process_arbitrage_mode' is not defined
+Traceback (most recent call last):
+  File "D:\dmarket_trading_bot\telegram_bot.py", line 1583, in on_startup
+    registrator.register_all_handlers()
+  File "D:\dmarket_trading_bot\telegram_bot.py", line 1503, in register_all_handlers
+    process_arbitrage_mode,
+    ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'process_arbitrage_mode' is not defined
+2025-04-08 16:22:24 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 16:22:24 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 16:22:24 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 16:22:24 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 16:22:24 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 16:22:24 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 16:26:21 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 16:26:21 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 16:26:21 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 16:26:21 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 16:26:21 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 16:26:21 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 16:51:44 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 16:51:44 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 16:51:44 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 16:51:44 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 16:51:44 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 16:51:44 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 16:52:08 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 16:52:08 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 16:52:08 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 16:52:08 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 16:52:08 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 16:52:08 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 16:52:09 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 16:52:09 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 16:52:09 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 16:52:09 - telegram_bot - ERROR - Ошибка при инициализации бота: name 'process_arbitrage_mode' is not defined
+Traceback (most recent call last):
+  File "d:\dmarket_trading_bot\telegram_bot.py", line 1580, in on_startup
+    registrator.register_all_handlers()
+  File "d:\dmarket_trading_bot\telegram_bot.py", line 1500, in register_all_handlers
+    process_arbitrage_mode,
+    ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'process_arbitrage_mode' is not defined
+2025-04-08 16:57:19 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 16:57:19 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 16:57:19 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 16:57:19 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 16:57:19 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 16:57:19 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 16:58:35 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 16:58:35 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 16:58:35 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 16:58:35 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 16:58:35 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 16:58:35 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 16:59:18 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 16:59:18 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 16:59:18 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 16:59:18 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 16:59:18 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 16:59:18 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 18:14:35 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 18:14:35 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 18:14:35 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 18:14:35 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 18:14:35 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 18:14:35 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 18:14:36 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 18:14:36 - telegram_bot - ERROR - Отсутствуют API ключи DMarket в .env файле
+2025-04-08 18:14:36 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 18:14:36 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 18:14:36 - telegram_bot - ERROR - Ошибка при инициализации бота: name 'process_arbitrage_game' is not defined
+Traceback (most recent call last):
+  File "d:\dmarket_trading_bot\telegram_bot.py", line 1587, in on_startup
+    registrator.register_all_handlers()
+  File "d:\dmarket_trading_bot\telegram_bot.py", line 1506, in register_all_handlers
+    process_arbitrage_game,
+    ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'process_arbitrage_game' is not defined
+2025-04-08 18:28:40 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 18:28:40 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 18:28:40 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 18:28:40 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 18:28:40 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 18:28:40 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 18:28:41 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 18:28:41 - telegram_bot - ERROR - Отсутствуют API ключи DMarket в .env файле
+2025-04-08 18:28:41 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 18:28:41 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 18:28:41 - telegram_bot - ERROR - Ошибка при инициализации бота: name 'process_arbitrage_game' is not defined
+Traceback (most recent call last):
+  File "d:\dmarket_trading_bot\telegram_bot.py", line 1587, in on_startup
+    registrator.register_all_handlers()
+  File "d:\dmarket_trading_bot\telegram_bot.py", line 1506, in register_all_handlers
+    process_arbitrage_game,
+    ^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'process_arbitrage_game' is not defined
+2025-04-08 18:32:27 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 18:32:27 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 18:32:27 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 18:32:27 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 18:32:27 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 18:32:27 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 18:32:28 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 18:32:28 - telegram_bot - ERROR - Отсутствуют API ключи DMarket в .env файле
+2025-04-08 18:32:28 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 18:32:28 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 18:32:28 - telegram_bot - ERROR - Ошибка при инициализации бота: name 'process_profit_range' is not defined
+Traceback (most recent call last):
+  File "d:\dmarket_trading_bot\telegram_bot.py", line 1587, in on_startup
+    registrator.register_all_handlers()
+  File "d:\dmarket_trading_bot\telegram_bot.py", line 1512, in register_all_handlers
+    process_profit_range,
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'process_profit_range' is not defined
+2025-04-08 18:33:15 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 18:33:15 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 18:33:15 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 18:33:15 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 18:33:15 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 18:33:15 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 18:33:15 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 18:33:15 - telegram_bot - ERROR - Отсутствуют API ключи DMarket в .env файле
+2025-04-08 18:33:15 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 18:33:15 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 18:33:15 - telegram_bot - ERROR - Ошибка при инициализации бота: name 'process_profit_range' is not defined
+Traceback (most recent call last):
+  File "d:\dmarket_trading_bot\telegram_bot.py", line 1587, in on_startup
+    registrator.register_all_handlers()
+  File "d:\dmarket_trading_bot\telegram_bot.py", line 1512, in register_all_handlers
+    process_profit_range,
+    ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'process_profit_range' is not defined
+2025-04-08 18:34:58 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 18:34:58 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 18:34:58 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 18:34:58 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 18:34:58 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 18:34:58 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 18:34:58 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 18:34:58 - telegram_bot - ERROR - Отсутствуют API ключи DMarket в .env файле
+2025-04-08 18:34:58 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 18:34:58 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 18:34:58 - telegram_bot - ERROR - Ошибка при инициализации бота: name 'skin_process_arbitrage_mode' is not defined
+Traceback (most recent call last):
+  File "D:\dmarket_trading_bot\telegram_bot.py", line 1587, in on_startup
+    registrator.register_all_handlers()
+  File "D:\dmarket_trading_bot\telegram_bot.py", line 1520, in register_all_handlers
+    skin_process_arbitrage_mode,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'skin_process_arbitrage_mode' is not defined
+2025-04-08 18:37:39 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 18:37:39 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 18:37:39 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 18:37:39 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 18:37:39 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 18:37:39 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 18:37:40 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 18:37:40 - telegram_bot - ERROR - Отсутствуют API ключи DMarket в .env файле
+2025-04-08 18:37:40 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 18:37:40 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 18:37:40 - telegram_bot - ERROR - Ошибка при инициализации бота: name 'skin_process_arbitrage_mode' is not defined
+Traceback (most recent call last):
+  File "d:\dmarket_trading_bot\telegram_bot.py", line 1587, in on_startup
+    registrator.register_all_handlers()
+  File "d:\dmarket_trading_bot\telegram_bot.py", line 1520, in register_all_handlers
+    skin_process_arbitrage_mode,
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'skin_process_arbitrage_mode' is not defined
+2025-04-08 18:40:35 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-08 18:40:35 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-08 18:40:35 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-08 18:40:35 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-08 18:40:35 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-08 18:40:35 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-08 18:40:36 - telegram_bot - INFO - Инициализация бота и компонентов...
+2025-04-08 18:40:36 - telegram_bot - ERROR - Отсутствуют API ключи DMarket в .env файле
+2025-04-08 18:40:36 - telegram_bot - INFO - Торговый фасад инициализирован
+2025-04-08 18:40:36 - telegram_bot - INFO - Соединение с API установлено успешно
+2025-04-08 18:40:36 - telegram_bot - INFO - Обработчики команд и сообщений зарегистрированы
+2025-04-08 18:40:36 - telegram_bot - INFO - Уведомление о запуске отправлено администратору (ID: 458765683)
+2025-04-08 18:40:36 - telegram_bot - INFO - Бот успешно запущен и готов к работе
+2025-04-08 18:40:59 - telegram_bot - INFO - Пользователь Gudian1233 (ID: 458765683) запустил бота
+2025-04-08 18:41:27 - telegram_bot - INFO - Получен callback от Gudian1233 (ID: 458765683): game:cs2
+2025-04-10 15:21:20 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-10 15:21:20 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-10 15:21:20 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-10 15:21:20 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-10 15:21:20 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-10 15:21:20 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-10 15:21:20 - telegram_bot - ERROR - TELEGRAM_BOT_TOKEN не найден в .env файле
+2025-04-10 15:23:12 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-10 15:23:12 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-10 15:23:12 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-10 15:23:12 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-10 15:23:12 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-10 15:23:12 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-10 15:25:59 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-10 15:25:59 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-10 15:25:59 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-10 15:25:59 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-10 15:25:59 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-10 15:25:59 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-10 15:25:59 - telegram_bot - INFO - Инициализация бота и диспетчера...
+2025-04-10 15:25:59 - telegram_bot - INFO - Используем MemoryStorage для хранения состояний
+2025-04-10 15:25:59 - telegram_bot - INFO - Инициализация успешно завершена
+2025-04-10 15:25:59 - telegram_bot - ERROR - Ошибка при запуске бота: TradingFacade.__init__() got an unexpected keyword argument 'api_key'
+Traceback (most recent call last):
+  File "D:\dmarket_trading_bot\telegram_bot.py", line 1461, in <module>
+    trading_facade = TradingFacade(
+                     ^^^^^^^^^^^^^^
+TypeError: TradingFacade.__init__() got an unexpected keyword argument 'api_key'
+2025-04-10 15:27:59 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-10 15:27:59 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-10 15:27:59 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-10 15:27:59 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-10 15:27:59 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-10 15:27:59 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-10 15:27:59 - telegram_bot - INFO - Инициализация бота и диспетчера...
+2025-04-10 15:27:59 - telegram_bot - INFO - Используем MemoryStorage для хранения состояний
+2025-04-10 15:27:59 - telegram_bot - INFO - Инициализация успешно завершена
+2025-04-10 15:27:59 - telegram_bot - ERROR - Ошибка при запуске бота: 'Config' object has no attribute 'marketplace'
+Traceback (most recent call last):
+  File "D:\dmarket_trading_bot\trading_facade.py", line 321, in _init_marketplace
+    return MarketplaceIntegrator(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\utils\marketplace_integrator.py", line 74, in __init__
+    self.marketplace_aggregator = MarketplaceAggregator(
+                                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\utils\marketplace_api.py", line 684, in __init__
+    self.bitskins = BitskinsPricer(api_key=bitskins_api_key)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\utils\marketplace_api.py", line 210, in __init__
+    self.api_key = api_key or config.marketplace.BITSKINS_API_KEY
+                              ^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\.venv\Lib\site-packages\pydantic\main.py", line 891, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Config' object has no attribute 'marketplace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\dmarket_trading_bot\telegram_bot.py", line 1461, in <module>
+    trading_facade = TradingFacade(
+                     ^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\trading_facade.py", line 285, in __init__
+    self.marketplace = self._init_marketplace()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\trading_facade.py", line 329, in _init_marketplace
+    return MarketplaceIntegrator()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\utils\marketplace_integrator.py", line 74, in __init__
+    self.marketplace_aggregator = MarketplaceAggregator(
+                                  ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\utils\marketplace_api.py", line 684, in __init__
+    self.bitskins = BitskinsPricer(api_key=bitskins_api_key)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\utils\marketplace_api.py", line 210, in __init__
+    self.api_key = api_key or config.marketplace.BITSKINS_API_KEY
+                              ^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\.venv\Lib\site-packages\pydantic\main.py", line 891, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'Config' object has no attribute 'marketplace'
+2025-04-10 15:30:02 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-10 15:30:02 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-10 15:30:02 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-10 15:30:02 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-10 15:30:02 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-10 15:30:02 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-10 15:30:02 - telegram_bot - INFO - Инициализация бота и диспетчера...
+2025-04-10 15:30:03 - telegram_bot - INFO - Используем MemoryStorage для хранения состояний
+2025-04-10 15:30:03 - telegram_bot - INFO - Инициализация успешно завершена
+2025-04-10 15:30:03 - telegram_bot - WARNING - Не удалось инициализировать торговый фасад: 'Config' object has no attribute 'marketplace'. Продолжаем без него.
+2025-04-10 15:30:03 - telegram_bot - INFO - Запуск бота (aiogram v2) в режиме long polling...
+2025-04-10 15:30:03 - telegram_bot - ERROR - Ошибка при запуске бота: Unauthorized
+Traceback (most recent call last):
+  File "D:\dmarket_trading_bot\telegram_bot.py", line 1481, in <module>
+    executor.start_polling(dp, skip_updates=True)
+  File "D:\dmarket_trading_bot\.venv\Lib\site-packages\aiogram\utils\executor.py", line 45, in start_polling
+    executor.start_polling(
+  File "D:\dmarket_trading_bot\.venv\Lib\site-packages\aiogram\utils\executor.py", line 320, in start_polling
+    loop.run_until_complete(self._startup_polling())
+  File "C:\Program Files\Python311\Lib\asyncio\base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\.venv\Lib\site-packages\aiogram\utils\executor.py", line 372, in _startup_polling
+    await self._welcome()
+  File "D:\dmarket_trading_bot\.venv\Lib\site-packages\aiogram\utils\executor.py", line 361, in _welcome
+    user = await self.dispatcher.bot.me
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\.venv\Lib\site-packages\aiogram\bot\bot.py", line 30, in me
+    setattr(self, '_me', await self.get_me())
+                         ^^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\.venv\Lib\site-packages\aiogram\bot\bot.py", line 233, in get_me
+    result = await self.request(api.Methods.GET_ME, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\.venv\Lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\.venv\Lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\dmarket_trading_bot\.venv\Lib\site-packages\aiogram\bot\api.py", line 121, in check_result
+    exceptions.Unauthorized.detect(description)
+  File "D:\dmarket_trading_bot\.venv\Lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.Unauthorized: Unauthorized
+2025-04-10 15:30:03 - telegram_bot - INFO - Сессия бота закрыта
+2025-04-11 20:56:46 - telegram_bot - INFO - ������������� ����...
+2025-04-11 20:56:46 - telegram_bot - INFO - ��� ���������������
+2025-04-11 20:56:46 - telegram_bot - WARNING - Redis ��������. ������������ ��������� ��������� � ������ (������ ����� �������� ��� �����������)
+2025-04-11 20:56:46 - telegram_bot - INFO - ����������� ����������������
+2025-04-11 20:56:47 - telegram_bot - ERROR - ������ ��� ������� ����: type object 'Config' has no attribute 'DB_PATH'
+2025-04-11 20:58:07 - telegram_bot - INFO - ������������� ����...
+2025-04-11 20:58:07 - telegram_bot - INFO - ��� ���������������
+2025-04-11 20:58:07 - telegram_bot - WARNING - Redis ��������. ������������ ��������� ��������� � ������ (������ ����� �������� ��� �����������)
+2025-04-11 20:58:07 - telegram_bot - INFO - ����������� ����������������
+2025-04-11 20:58:07 - telegram_bot - ERROR - ������ ��� ������� ����: type object 'Config' has no attribute 'DB_PATH'
+2025-04-11 20:59:09 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-11 20:59:09 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-11 20:59:09 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-11 20:59:09 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-11 20:59:09 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-11 20:59:09 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-11 21:00:10 - telegram_bot - INFO - ������������� ����...
+2025-04-11 21:00:11 - telegram_bot - INFO - ��� ���������������
+2025-04-11 21:00:11 - telegram_bot - WARNING - Redis ��������. ������������ ��������� ��������� � ������ (������ ����� �������� ��� �����������)
+2025-04-11 21:00:11 - telegram_bot - INFO - ����������� ����������������
+2025-04-11 21:00:11 - telegram_bot - ERROR - ������ ��� ������� ����: type object 'Config' has no attribute 'DB_PATH'
+2025-04-11 21:01:32 - telegram_bot - INFO - ������������� ����...
+2025-04-11 21:01:32 - telegram_bot - INFO - ��� ���������������
+2025-04-11 21:01:32 - telegram_bot - WARNING - Redis ��������. ������������ ��������� ��������� � ������ (������ ����� �������� ��� �����������)
+2025-04-11 21:01:32 - telegram_bot - INFO - ����������� ����������������
+2025-04-11 21:01:32 - telegram_bot - INFO - ���� ������ ����������������
+2025-04-11 21:01:32 - telegram_bot - WARNING - ADMIN_IDS �� ���������. ����������� � ������� �� ����� ����������.
+2025-04-11 21:01:32 - telegram_bot - ERROR - ������ ��� ������� ����: 'Config' object has no attribute 'marketplace'
+2025-04-11 21:04:50 - telegram_bot - INFO - ������������� ����...
+2025-04-11 21:04:50 - telegram_bot - INFO - ��� ���������������
+2025-04-11 21:04:50 - telegram_bot - WARNING - Redis ��������. ������������ ��������� ��������� � ������ (������ ����� �������� ��� �����������)
+2025-04-11 21:04:50 - telegram_bot - INFO - ����������� ����������������
+2025-04-11 21:04:50 - telegram_bot - INFO - ���� ������ ����������������
+2025-04-11 21:04:50 - telegram_bot - WARNING - ADMIN_IDS �� ���������. ����������� � ������� �� ����� ����������.
+2025-04-11 21:04:50 - telegram_bot - ERROR - ������ ��� ������� ����: 'dict' object has no attribute 'BITSKINS_API_KEY'
+2025-04-11 21:08:00 - telegram_bot - INFO - ������������� ����...
+2025-04-11 21:08:01 - telegram_bot - INFO - ��� ���������������
+2025-04-11 21:08:01 - telegram_bot - WARNING - Redis ��������. ������������ ��������� ��������� � ������ (������ ����� �������� ��� �����������)
+2025-04-11 21:08:01 - telegram_bot - INFO - ����������� ����������������
+2025-04-11 21:08:01 - telegram_bot - INFO - ���� ������ ����������������
+2025-04-11 21:08:01 - telegram_bot - WARNING - ADMIN_IDS �� ���������. ����������� � ������� �� ����� ����������.
+2025-04-11 21:08:01 - telegram_bot - ERROR - ������ ��� ������� ����: 'types.SimpleNamespace' object has no attribute 'CSMONEY_API_KEY'
+2025-04-11 21:08:43 - telegram_bot - INFO - ������������� ����...
+2025-04-11 21:08:44 - telegram_bot - INFO - ��� ���������������
+2025-04-11 21:08:44 - telegram_bot - WARNING - Redis ��������. ������������ ��������� ��������� � ������ (������ ����� �������� ��� �����������)
+2025-04-11 21:08:44 - telegram_bot - INFO - ����������� ����������������
+2025-04-11 21:08:44 - telegram_bot - INFO - ���� ������ ����������������
+2025-04-11 21:08:44 - telegram_bot - WARNING - ADMIN_IDS �� ���������. ����������� � ������� �� ����� ����������.
+2025-04-11 21:08:44 - telegram_bot - ERROR - ������ ��� ������� ����: 'types.SimpleNamespace' object has no attribute 'CSMONEY_API_KEY'
+2025-04-11 21:12:16 - telegram_bot - INFO - ���������� � ����� ������ �������
+2025-04-11 21:12:16 - telegram_bot - INFO - ������ ���� �������
+2025-04-13 16:36:02 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-13 16:36:02 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-13 16:36:02 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-13 16:36:02 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-13 16:36:02 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-13 16:36:02 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-13 16:47:47 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-13 16:47:47 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-13 16:47:47 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-13 16:47:47 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-13 16:47:47 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-13 16:47:47 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-13 17:01:43 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-13 17:01:43 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-13 17:01:43 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-13 17:01:43 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-13 17:01:43 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-13 17:01:43 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-13 17:06:31 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-13 17:06:31 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-13 17:06:31 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-13 17:06:31 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-13 17:06:31 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-13 17:06:31 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-13 17:06:45 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-13 17:06:45 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-13 17:06:45 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-13 17:06:45 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-13 17:06:45 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-13 17:06:45 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-13 19:39:38 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-13 19:39:38 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-13 19:39:38 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-13 19:39:38 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-13 19:39:38 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-13 19:39:38 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-15 12:31:58 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-15 12:31:58 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-15 12:31:58 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-15 12:31:58 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-15 12:31:58 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-15 12:31:58 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-15 12:32:50 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-15 12:32:50 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-15 12:32:50 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-15 12:32:50 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-15 12:32:50 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-15 12:32:50 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-15 12:33:48 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-15 12:33:48 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-15 12:33:48 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-15 12:33:48 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-15 12:33:48 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-15 12:33:48 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-15 12:35:17 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-15 12:35:17 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-15 12:35:17 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-15 12:35:17 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-15 12:35:17 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-15 12:35:17 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251
+2025-04-15 12:35:31 - telegram_bot - INFO - Запуск бота Telegram...
+2025-04-15 12:35:31 - telegram_bot - INFO - Текущая директория: D:\dmarket_trading_bot
+2025-04-15 12:35:31 - telegram_bot - INFO - Версия Python: 3.11.9
+2025-04-15 12:35:31 - telegram_bot - INFO - Версия aiogram: v2
+2025-04-15 12:35:31 - telegram_bot - INFO - Кодировка консоли: utf-8
+2025-04-15 12:35:31 - telegram_bot - INFO - Локаль системы: ('Russian_Russia', '1251'), кодировка: cp1251

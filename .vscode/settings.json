@@ -1,0 +1,81 @@
+{
+    // --- Python Settings ---
+    // Указываем путь к интерпретатору Python в виртуальном окружении
+    "python.defaultInterpreterPath": "${workspaceFolder}/dmarket_bot_env/Scripts/python.exe", // Убедитесь, что путь корректен для вашей ОС
+
+    // --- Linting ---
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true, // Используем Pylint
+    "python.linting.flake8Enabled": true, // Используем Flake8
+    // "python.linting.mypyEnabled": true, // Mypy для проверки типов (можно включить, если нужно)
+
+    // Аргументы для линтеров (можно добавить пути к конфигам, если они есть)
+    "python.linting.pylintArgs": [
+        "--rcfile=${workspaceFolder}/.pylintrc" // Используем .pylintrc
+        // "--load-plugins", "pylint_django" // Пример добавления плагинов
+    ],
+    "python.linting.flake8Args": [
+        "--config=${workspaceFolder}/.flake8" // Используем .flake8
+        // "--ignore=E501" // Пример игнорирования правила
+    ],
+    "python.linting.mypyArgs": [ // Аргументы для mypy
+        "--config-file=${workspaceFolder}/mypy.ini" // Путь к конфигу mypy
+    ],
+
+    // --- Formatting ---
+    "editor.formatOnSave": true, // Форматировать при сохранении
+    "python.formatting.provider": "black", // Используем Black как основной форматер
+    "python.formatting.blackArgs": [
+        "--config=${workspaceFolder}/pyproject.toml" // Если используете pyproject.toml для black
+    ],
+
+    // --- Import Sorting ---
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python", // Возвращаем к исходному значению для исправления ошибки
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit" // Включаем isort для сортировки импортов при сохранении
+        }
+    },
+    "isort.args": [ // Аргументы для isort
+        "--settings-path=${workspaceFolder}/pyproject.toml" // Если используете pyproject.toml для isort
+    ],
+
+    // --- Testing ---
+    "python.testing.pytestEnabled": true, // Включаем поддержку Pytest
+    "python.testing.unittestEnabled": false, // Отключаем стандартный unittest
+    "python.testing.pytestArgs": [ // Аргументы для Pytest
+        "tests" // Указываем папку с тестами
+    ],
+
+    // --- Files ---
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true, // Исключаем папки __pycache__
+        "**/.pytest_cache": true,
+        "**/.mypy_cache": true,
+        "**/dmarket_bot_env": true // Исключаем папку виртуального окружения
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/__pycache__/**": true,
+        "**/.pytest_cache/**": true,
+        "**/.mypy_cache/**": true,
+        "**/dmarket_bot_env/**": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.mypy_cache": true,
+        "**/dmarket_bot_env": true
+    }
+}

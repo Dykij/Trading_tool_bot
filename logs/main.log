@@ -1,0 +1,10 @@
+2025-04-08 07:58:17 - main - ERROR - Ошибка при анализе рынка: name 'limit' is not defined
+Traceback (most recent call last):
+  File "D:\dmarket_trading_bot\main.py", line 270, in analyze_market
+    items_data = await adapter.get_market_items(limit=limit)
+                                                      ^^^^^
+NameError: name 'limit' is not defined
+2025-04-08 07:58:57 - main - WARNING - Не найдено арбитражных возможностей
+2025-04-08 12:08:10 - main - ERROR - Ошибка при анализе рынка: get_analyzer() got an unexpected keyword argument 'api_key'
+2025-04-08 12:09:24 - main - ERROR - Ошибка при анализе рынка: name 'PerformanceMonitor' is not defined
+2025-04-08 12:10:19 - main - ERROR - Ошибка при анализе рынка: 'AdaptiveParameters' object has no attribute 'load_from_dict'

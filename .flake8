@@ -1,0 +1,34 @@
+[flake8]
+# Максимальная длина строки
+max-line-length = 100
+
+# Игнорируемые ошибки
+# E203: whitespace before ':' (конфликтует с black)
+# W503: line break before binary operator (PEP8 рекомендует после)
+ignore = E203, W503
+
+# Исключаемые директории и файлы
+exclude =
+    .git,
+    __pycache__,
+    dmarket_bot_env,
+    venv,
+    .venv,
+    .mypy_cache,
+    .pytest_cache,
+    build,
+    dist,
+    *.egg-info,
+    logs,
+    reports,
+    docs,
+    tmp,
+    temp_fix,
+    tmp_dir,
+    tests/ # Исключаем тесты из flake8, если для них другие правила
+
+# Можно добавить плагины, например, для проверки порядка импортов (хотя isort уже есть)
+# select = E,W,F,C,N,I
+
+# Максимальная сложность кода (McCabe complexity)
+max-complexity = 10

@@ -1,0 +1,277 @@
+﻿Р—Р°РїСѓСЃРє РїСЂРѕРІРµСЂРѕРє РєРѕРґР° 2025-04-03_12-50-13
+=== РџСЂРѕРІРµСЂРєР° РёРјРїРѕСЂС‚РѕРІ Рё Р·Р°РІРёСЃРёРјРѕСЃС‚РµР№ ===
+РђРЅР°Р»РёР· РЅРµРёСЃРїРѕР»СЊР·СѓРµРјС‹С… РёРјРїРѕСЂС‚РѕРІ...
+Р—Р°РїСѓСЃРє check_imports.py...
+Р’С‹РїРѕР»РЅРµРЅРёРµ: python check_imports.py --output=unused_imports.txt
+python : 2025-04-03 12:50:13,775 - root - INFO - Запуск анализа импортов в директ
+ории: .
+строка:1 знак:1
++ python check_imports.py --output=unused_imports.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (2025-04-03 12:5...в директории: .:S 
+   tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+2025-04-03 12:50:14,242 - root - INFO - Найдено 39 Python файлов для анализа
+2025-04-03 12:50:14,371 - root - INFO - Получен список установленных пакетов: 134
+ пакетов
+2025-04-03 12:50:14,371 - root - INFO - Поиск неиспользуемых импортов...
+2025-04-03 12:50:14,382 - root - ERROR - Синтаксическая ошибка в файле bellman_fo
+rd.py: invalid syntax (<unknown>, line 662)
+2025-04-03 12:50:14,388 - root - ERROR - Синтаксическая ошибка в файле check_comm
+on_errors.py: invalid syntax (<unknown>, line 420)
+2025-04-03 12:50:14,391 - root - ERROR - Синтаксическая ошибка в файле check_comm
+on_errors_new.py: invalid syntax (<unknown>, line 351)
+2025-04-03 12:50:14,484 - root - INFO - Найдено 32 неиспользуемых импортов в 10 ф
+айлах
+2025-04-03 12:50:14,484 - root - INFO - Проверка отсутствующих зависимостей...
+2025-04-03 12:50:14,494 - root - ERROR - Синтаксическая ошибка в файле bellman_fo
+rd.py: invalid syntax (<unknown>, line 662)
+2025-04-03 12:50:14,500 - root - ERROR - Синтаксическая ошибка в файле check_comm
+on_errors.py: invalid syntax (<unknown>, line 420)
+2025-04-03 12:50:14,503 - root - ERROR - Синтаксическая ошибка в файле check_comm
+on_errors_new.py: invalid syntax (<unknown>, line 351)
+2025-04-03 12:50:14,598 - root - INFO - Найдено 89 отсутствующих зависимостей в 2
+0 файлах
+2025-04-03 12:50:14,598 - root - INFO - Поиск циклических зависимостей...
+2025-04-03 12:50:14,609 - root - ERROR - Синтаксическая ошибка в файле bellman_fo
+rd.py: invalid syntax (<unknown>, line 662)
+2025-04-03 12:50:14,615 - root - ERROR - Синтаксическая ошибка в файле check_comm
+on_errors.py: invalid syntax (<unknown>, line 420)
+2025-04-03 12:50:14,618 - root - ERROR - Синтаксическая ошибка в файле check_comm
+on_errors_new.py: invalid syntax (<unknown>, line 351)
+2025-04-03 12:50:14,712 - root - INFO - Найдено 0 циклических зависимостей
+2025-04-03 12:50:14,713 - root - INFO - Отчет сохранен в файл: unused_imports.txt
+================================================================================
+ОТЧЕТ ПО АНАЛИЗУ ИМПОРТОВ В ПРОЕКТЕ DMARKET TRADING BOT
+================================================================================
+Дата: 2025-04-03 12:50:14
+Проанализировано файлов: 39
+
+НЕИСПОЛЬЗУЕМЫЕ ИМПОРТЫ
+--------------------------------------------------------------------------------
+Найдено всего: 32 неиспользуемых импортов в 10 файлах
+
+Файл: trading_bot.py
+  - ArbitrageOpportunity
+  - AuthenticationError
+  - Callable
+  - ItemPrice
+  - List
+  - MarketItem
+  - NetworkError
+  - Path
+  - Set
+  - ThreadPoolExecutor
+  - Tuple
+  - Union
+  - sys
+
+Файл: check_errors.py
+  - Any
+  - Dict
+  - List
+  - Optional
+  - Union
+
+Файл: fix_remaining_issues.py
+  - Any
+  - Set
+  - Tuple
+  - astunparse
+
+Файл: parsers\base_parser.py
+  - Callable
+  - MetricsCollector
+  - cached
+
+Файл: db\db_funcs.py
+  - os
+  - text
+
+Файл: check_dependencies.py
+  - importlib.metadata
+
+Файл: handlers\bot_handlers.py
+  - db_get_user_settings
+
+Файл: parsers\cache_manager.py
+  - Union
+
+Файл: parsers\metrics.py
+  - Union
+
+Файл: parsers\target_parser\target_parser.py
+  - Union
+
+ОТСУТСТВУЮЩИЕ ЗАВИСИМОСТИ
+--------------------------------------------------------------------------------
+Найдено всего: 89 отсутствующих зависимостей в 20 файлах
+
+Наиболее часто отсутствующие пакеты:
+  - aiogram: 21 раз
+  - parsers: 15 раз
+  - sqlalchemy: 14 раз
+  - json: 9 раз
+  - handlers: 6 раз
+  - asyncio: 4 раз
+  - dotenv: 3 раз
+  - astunparse: 3 раз
+  - unittest: 3 раз
+  - hashlib: 2 раз
+  - concurrent: 2 раз
+  - uuid: 2 раз
+  - hmac: 1 раз
+  - chardet: 1 раз
+  - sqlite3: 1 раз
+  - db: 1 раз
+  - statistics: 1 раз
+
+Пакеты для установки:
+pip install aiogram astunparse asyncio chardet concurrent db dotenv handlers hashlib hmac json parsers sqlalchemy sqlite3 statistics unittest uuid
+
+Файл: api_wrapper.py
+  - hashlib
+  - hmac
+  - json
+
+Файл: cli.py
+  - dotenv
+  - json
+
+Файл: config.py
+  - dotenv
+
+Файл: db\db_funcs.py
+  - sqlalchemy
+  - sqlalchemy
+  - sqlalchemy
+  - sqlalchemy
+  - sqlalchemy
+  - sqlalchemy
+  - sqlalchemy
+  - sqlalchemy
+  - sqlalchemy
+  - sqlalchemy.ext.declarative
+  - sqlalchemy.orm
+  - sqlalchemy.orm
+  - sqlalchemy.orm
+  - sqlalchemy.pool
+  - sqlite3
+
+Файл: demo_parser.py
+  - asyncio
+  - json
+  - parsers.metrics
+  - parsers.metrics
+  - parsers.metrics
+  - parsers.target_parser.models
+  - parsers.target_parser.models
+  - parsers.target_parser.target_parser
+
+Файл: fix_encoding.py
+  - chardet
+
+Файл: fix_remaining_issues.py
+  - astunparse
+  - astunparse
+  - astunparse
+
+Файл: handlers\bot_handlers.py
+  - aiogram
+  - aiogram
+  - aiogram.filters
+  - aiogram.fsm.context
+  - aiogram.fsm.state
+  - aiogram.fsm.state
+  - aiogram.types
+  - aiogram.types
+  - aiogram.types
+  - aiogram.types
+  - aiogram.types
+  - aiogram.types
+  - aiogram.utils.keyboard
+  - aiogram.utils.keyboard
+  - db.db_funcs
+
+Файл: handlers\callbacks.py
+  - aiogram.filters.callback_data
+
+Файл: integration.py
+  - dotenv
+
+Файл: keyboards\keyboards.py
+  - aiogram.types
+  - aiogram.types
+  - aiogram.types
+  - aiogram.types
+  - aiogram.types
+  - aiogram.utils.keyboard
+  - handlers.callbacks
+  - handlers.callbacks
+  - handlers.callbacks
+  - handlers.callbacks
+  - handlers.callbacks
+  - handlers.callbacks
+
+Файл: parsers\base_parser.py
+  - asyncio
+  - json
+
+Файл: parsers\cache_manager.py
+  - hashlib
+  - json
+
+Файл: parsers\metrics.py
+  - json
+  - statistics
+
+Файл: parsers\target_parser\target_parser.py
+  - asyncio
+  - concurrent.futures
+  - json
+  - parsers.base_parser
+  - parsers.cache_manager
+  - parsers.cache_manager
+  - parsers.metrics
+  - parsers.metrics
+  - parsers.target_parser.models
+  - parsers.target_parser.models
+  - parsers.target_parser.models
+  - parsers.target_parser.models
+
+Файл: schemas\schemas.py
+  - uuid
+  - uuid
+
+Файл: tests\test_api.py
+  - unittest.mock
+  - unittest.mock
+
+Файл: tests\test_integration.py
+  - unittest.mock
+
+Файл: trading_bot.py
+  - asyncio
+  - concurrent.futures
+  - json
+
+Файл: utils\utils.py
+  - json
+
+ЦИКЛИЧЕСКИЕ ЗАВИСИМОСТИ
+--------------------------------------------------------------------------------
+Циклических зависимостей не найдено.
+
+РЕКОМЕНДАЦИИ
+--------------------------------------------------------------------------------
+1. Удалите неиспользуемые импорты для повышения читаемости кода.
+   Команда для автоматического удаления: python -m autoflake --in-place --remove-all-unused-imports --recursive .
+2. Установите отсутствующие зависимости:
+   pip install aiogram astunparse asyncio chardet concurrent db dotenv handlers hashlib hmac json parsers sqlalchemy sqlite3 statistics unittest uuid
+
+================================================================================
+check_imports.py: РћР±РЅР°СЂСѓР¶РµРЅС‹ РїСЂРѕР±Р»РµРјС‹ (РєРѕРґ РІС‹С…РѕРґР° 1)
+РџСЂРѕРІРµСЂРєР° Р·Р°РІРёСЃРёРјРѕСЃС‚РµР№ РїСЂРѕРµРєС‚Р°...
+Р—Р°РїСѓСЃРє check_dependencies.py...
+Р’С‹РїРѕР»РЅРµРЅРёРµ: python check_dependencies.py

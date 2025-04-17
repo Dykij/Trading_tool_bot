@@ -1,0 +1,65 @@
+{
+    "api": {
+        "dmarket": {
+            "key": "your_api_key_here",
+            "secret": "your_api_secret_here",
+            "base_url": "https://api.dmarket.com",
+            "timeout": 30
+        }
+    },
+    "database": {
+        "type": "sqlite",
+        "path": "data/dmarket.db"
+    },
+    "models": {
+        "directory": "models",
+        "default_type": "random_forest"
+    },
+    "logs": {
+        "level": "INFO",
+        "file": "logs/dmarket_bot.log",
+        "max_size": 10485760,
+        "backup_count": 5
+    },
+    "trading": {
+        "max_trades_per_day": 10,
+        "min_profit_percent": 5.0,
+        "min_confidence": 0.7,
+        "price_range": [
+            1.0,
+            500.0
+        ]
+    },
+    "notification": {
+        "enabled": false,
+        "telegram": {
+            "token": "your_telegram_bot_token",
+            "chat_id": "your_telegram_chat_id"
+        },
+        "email": {
+            "smtp_server": "smtp.example.com",
+            "port": 587,
+            "username": "your_email@example.com",
+            "password": "your_email_password",
+            "from": "your_email@example.com",
+            "to": "recipient@example.com"
+        }
+    },
+    "games": {
+        "csgo": {
+            "market_fee": 0.05,
+            "min_price": 1.0,
+            "max_price": 1000.0
+        },
+        "dota2": {
+            "market_fee": 0.05,
+            "min_price": 0.5,
+            "max_price": 500.0
+        },
+        "rust": {
+            "market_fee": 0.05,
+            "min_price": 0.5,
+            "max_price": 300.0
+        }
+    }
+}

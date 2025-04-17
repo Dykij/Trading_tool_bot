@@ -1,0 +1,238 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Code Checks",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\check_code.ps1\"",
+            "detail": "Запуск полной проверки кода без исправлений",
+            "problemMatcher": [
+                {
+                    "owner": "custom",
+                    "fileLocation": ["relative", "${workspaceFolder}"],
+                    "pattern": {
+                        "regexp": "^(.*):(\\d+):(\\d+):\\s+(error|warning):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run Style Checks",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\check_code.ps1\" -StyleChecks",
+            "detail": "Проверка стиля кода с помощью flake8, black и isort",
+            "problemMatcher": [
+                {
+                    "owner": "python",
+                    "fileLocation": ["relative", "${workspaceFolder}"],
+                    "pattern": {
+                        "regexp": "^(.*):(\\d+):(\\d+):\\s+(error|warning|info):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Run Static Analysis",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\check_code.ps1\" -StaticAnalysis",
+            "detail": "Запуск статического анализа (mypy, pylint, bandit, radon, safety)",
+            "problemMatcher": [
+                {
+                    "owner": "python",
+                    "fileLocation": ["relative", "${workspaceFolder}"],
+                    "pattern": {
+                        "regexp": "^(.*):(\\\\d+):(\\\\d+):\\\\s+(error|warning|info|note):\\\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Run Tests",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\check_code.ps1\" -Tests",
+            "detail": "Запуск всех тестов с помощью pytest",
+            "problemMatcher": [
+                {
+                    "owner": "python",
+                    "fileLocation": ["relative", "${workspaceFolder}"],
+                    "pattern": {
+                        "regexp": "^(.+):(\\d+):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "message": 3
+                    }
+                }
+            ],
+            "group": "test"
+        },
+        {
+            "label": "Run Tests with Coverage",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\check_code.ps1\" -Coverage -GenerateHTML",
+            "detail": "Запуск тестов с измерением покрытия кода и генерацией HTML-отчета",
+            "problemMatcher": [
+                {
+                    "owner": "python",
+                    "fileLocation": ["relative", "${workspaceFolder}"],
+                    "pattern": {
+                        "regexp": "^(.+):(\\d+):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "message": 3
+                    }
+                }
+            ],
+            "group": "test"
+        },
+        {
+            "label": "Fix Code Style",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\check_code.ps1\" -StyleChecks -Fix",
+            "detail": "Автоматическое исправление стиля кода с помощью black и isort",
+            "problemMatcher": [
+                {
+                    "owner": "python",
+                    "fileLocation": ["relative", "${workspaceFolder}"],
+                    "pattern": {
+                        "regexp": "^(.*):(\\d+):(\\d+):\\s+(error|warning|info):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Check Imports",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\check_code.ps1\" -CheckImports",
+            "detail": "Проверка импортов: поиск неиспользуемых и отсутствующих импортов",
+            "problemMatcher": [
+                {
+                    "owner": "python",
+                    "fileLocation": ["relative", "${workspaceFolder}"],
+                    "pattern": {
+                        "regexp": "^(.*):(\\d+):(\\d+):\\s+(error|warning|info):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Fix Imports and Install Missing",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\check_code.ps1\" -CheckImports -Fix -InstallMissing",
+            "detail": "Исправление импортов и установка отсутствующих пакетов",
+            "problemMatcher": [
+                {
+                    "owner": "python",
+                    "fileLocation": ["relative", "${workspaceFolder}"],
+                    "pattern": {
+                        "regexp": "^(.*):(\\d+):(\\d+):\\s+(error|warning|info):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Full Code Check with Auto-fix",
+            "type": "shell",
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\check_code.ps1\" -StyleChecks -StaticAnalysis -CheckImports -Fix -InstallMissing",
+            "detail": "Полная проверка кода с автоматическим исправлением проблем",
+            "problemMatcher": [
+                {
+                    "owner": "python",
+                    "fileLocation": ["relative", "${workspaceFolder}"],
+                    "pattern": {
+                        "regexp": "^(.*):(\\d+):(\\d+):\\s+(error|warning|info):\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Run Fast Tests",
+            "type": "shell",
+            // Исправлено экранирование для PowerShell внутри JSON
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\check_code.ps1\" -Tests -PytestArgs '-m \"not slow\"'",
+            "detail": "Запуск только быстрых тестов (помеченных как 'not slow')",
+            "problemMatcher": [
+                {
+                    "owner": "python",
+                    "fileLocation": ["relative", "${workspaceFolder}"],
+                    "pattern": {
+                        "regexp": "^(.+):(\\\\d+):\\\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "message": 3
+                    }
+                }
+            ],
+            "group": "test"
+        },
+        {
+            "label": "Run Security Checks (via Static Analysis)",
+            "type": "shell",
+            // Исправлено экранирование для PowerShell внутри JSON
+            "command": "powershell -ExecutionPolicy Bypass -File \"${workspaceFolder}\\scripts\\check_code.ps1\" -StaticAnalysis",
+            "detail": "Запуск проверок безопасности (bandit, safety) как часть статического анализа",
+            "problemMatcher": [
+                {
+                    "owner": "python",
+                    "fileLocation": ["relative", "${workspaceFolder}"],
+                    "pattern": {
+                        "regexp": "^(.*):(\\\\d+):(\\\\d+):\\\\s+(error|warning|info):\\\\s+(.*)$",
+                        "file": 1,
+                        "line": 2,
+                        "column": 3,
+                        "severity": 4,
+                        "message": 5
+                    }
+                }
+            ],
+            "group": "test"
+        }
+    ]
+}

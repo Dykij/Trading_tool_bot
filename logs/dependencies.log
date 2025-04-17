@@ -1,0 +1,52 @@
+2025-04-02 20:11:40,423 - INFO - Начало проверки зависимостей
+2025-04-02 20:11:40,423 - INFO - Прочитано 33 зависимостей из requirements.txt
+2025-04-02 20:11:46,170 - INFO - generated new fontManager
+2025-04-02 20:12:16,513 - WARNING - Отсутствуют пакеты: python-telegram-bot, python-dotenv, scikit-learn
+2025-04-02 20:12:16,514 - WARNING - Устаревшие пакеты: pydantic (2.11.1 < 2.6), poetry (2.0.1 < 1.5.0), scipy (1.15.2 < 1.11.0)
+2025-04-02 20:12:37,265 - INFO - Попытка установки/обновления пакетов: python-telegram-bot, python-dotenv, pydantic, poetry, scikit-learn, scipy
+2025-04-02 20:12:46,577 - INFO - Проверка зависимостей завершена
+2025-04-02 21:30:19,879 - INFO - Начало проверки зависимостей
+2025-04-02 21:30:19,880 - INFO - Прочитано 33 зависимостей из requirements.txt
+2025-04-02 21:30:23,193 - WARNING - Отсутствуют пакеты: python-telegram-bot, python-dotenv, scikit-learn
+2025-04-02 21:30:23,193 - WARNING - Устаревшие пакеты: pydantic (2.11.1 < 2.6), poetry (2.1.2 < 1.5.0), scipy (1.15.2 < 1.11.0)
+2025-04-02 21:30:23,195 - INFO - Попытка установки/обновления пакетов: python-telegram-bot, python-dotenv, scikit-learn, pydantic, poetry, scipy
+2025-04-02 21:30:25,362 - INFO - Проверка зависимостей завершена
+2025-04-02 21:39:59,038 - INFO - Начало проверки зависимостей
+2025-04-02 21:39:59,039 - INFO - Прочитано 33 зависимостей из requirements.txt
+2025-04-02 21:39:59,401 - WARNING - Ошибка при проверке пакета isort: The python version 3 is not supported. You can set a python version with the -py or --python-version flag. The following versions are supported: ()
+2025-04-02 21:39:59,445 - WARNING - Ошибка при проверке пакета tqdm: module 'colorama' has no attribute 'init'
+2025-04-02 21:39:59,842 - WARNING - Отсутствуют пакеты: requests, python-telegram-bot, numpy, pandas, python-dotenv, matplotlib, seaborn, black, scikit-learn, scipy, torch
+2025-04-02 21:39:59,842 - WARNING - Устаревшие пакеты: pydantic (2.11.1 < 2.6), poetry (2.1.2 < 1.5.0)
+2025-04-02 21:39:59,856 - INFO - Попытка установки/обновления пакетов: requests, python-telegram-bot, numpy, pandas, python-dotenv, matplotlib, seaborn, black, scikit-learn, scipy, torch, pydantic, poetry
+2025-04-02 21:40:00,138 - ERROR - Ошибка при установке пакетов: Command '['D:\\dmarket_trading_bot\\dmarket_bot_env\\Scripts\\python.exe', '-m', 'pip', 'install', '-U', 'requests', 'python-telegram-bot', 'numpy', 'pandas', 'python-dotenv', 'matplotlib', 'seaborn', 'black', 'scikit-learn', 'scipy', 'torch', 'pydantic', 'poetry']' returned non-zero exit status 1.
+2025-04-02 21:40:00,138 - INFO - Проверка зависимостей завершена
+2025-04-02 21:48:23,859 - INFO - Начало проверки зависимостей
+2025-04-02 21:48:23,859 - INFO - Прочитано 33 зависимостей из requirements.txt
+2025-04-02 21:48:24,191 - WARNING - Ошибка при проверке пакета isort: The python version 3 is not supported. You can set a python version with the -py or --python-version flag. The following versions are supported: ()
+2025-04-02 21:48:24,222 - WARNING - Ошибка при проверке пакета tqdm: module 'colorama' has no attribute 'init'
+2025-04-02 21:48:24,608 - WARNING - Отсутствуют пакеты: requests, python-telegram-bot, numpy, pandas, python-dotenv, matplotlib, seaborn, black, scikit-learn, scipy, torch
+2025-04-02 21:48:24,608 - WARNING - Устаревшие пакеты: pydantic (2.11.1 < 2.6), poetry (2.1.2 < 1.5.0)
+2025-04-02 21:57:07,077 - INFO - Начало проверки зависимостей
+2025-04-02 21:57:07,077 - INFO - Прочитано 33 зависимостей из requirements.txt
+2025-04-02 21:57:07,422 - WARNING - Ошибка при проверке пакета isort: The python version 3 is not supported. You can set a python version with the -py or --python-version flag. The following versions are supported: ()
+2025-04-02 21:57:07,454 - WARNING - Ошибка при проверке пакета tqdm: module 'colorama' has no attribute 'init'
+2025-04-02 21:57:07,848 - WARNING - Отсутствуют пакеты: requests, python-telegram-bot, numpy, pandas, python-dotenv, matplotlib, seaborn, black, scikit-learn, scipy, torch
+2025-04-02 21:57:07,848 - WARNING - Устаревшие пакеты: pydantic (2.11.1 < 2.6), poetry (2.1.2 < 1.5.0)
+2025-04-03 10:05:28,124 - INFO - Начало проверки зависимостей
+2025-04-03 10:05:28,128 - INFO - Прочитано 33 зависимостей из requirements.txt
+2025-04-03 10:05:32,491 - WARNING - Ошибка при проверке пакета isort: The python version 3 is not supported. You can set a python version with the -py or --python-version flag. The following versions are supported: ()
+2025-04-03 10:05:32,550 - WARNING - Ошибка при проверке пакета tqdm: module 'colorama' has no attribute 'init'
+2025-04-03 10:05:36,545 - WARNING - Отсутствуют пакеты: requests, python-telegram-bot, numpy, pandas, python-dotenv, matplotlib, seaborn, black, scikit-learn, scipy, torch
+2025-04-03 10:05:36,545 - WARNING - Устаревшие пакеты: pydantic (2.11.1 < 2.6), poetry (2.1.2 < 1.5.0)
+2025-04-03 10:20:35,227 - INFO - Начало проверки зависимостей
+2025-04-03 10:20:35,228 - INFO - Прочитано 33 зависимостей из requirements.txt
+2025-04-03 10:20:35,570 - WARNING - Ошибка при проверке пакета isort: The python version 3 is not supported. You can set a python version with the -py or --python-version flag. The following versions are supported: ()
+2025-04-03 10:20:35,601 - WARNING - Ошибка при проверке пакета tqdm: module 'colorama' has no attribute 'init'
+2025-04-03 10:20:36,029 - WARNING - Отсутствуют пакеты: requests, python-telegram-bot, numpy, pandas, python-dotenv, matplotlib, seaborn, black, scikit-learn, scipy, torch
+2025-04-03 10:20:36,029 - WARNING - Устаревшие пакеты: pydantic (2.11.1 < 2.6), poetry (2.1.2 < 1.5.0)
+2025-04-03 12:50:14,978 - INFO - Начало проверки зависимостей
+2025-04-03 12:50:14,978 - INFO - Прочитано 33 зависимостей из requirements.txt
+2025-04-03 12:50:15,316 - WARNING - Ошибка при проверке пакета isort: The python version 3 is not supported. You can set a python version with the -py or --python-version flag. The following versions are supported: ()
+2025-04-03 12:50:15,347 - WARNING - Ошибка при проверке пакета tqdm: module 'colorama' has no attribute 'init'
+2025-04-03 12:50:15,730 - WARNING - Отсутствуют пакеты: requests, python-telegram-bot, numpy, pandas, python-dotenv, matplotlib, seaborn, black, scikit-learn, scipy, torch
+2025-04-03 12:50:15,730 - WARNING - Устаревшие пакеты: pydantic (2.11.1 < 2.6), poetry (2.1.2 < 1.5.0)

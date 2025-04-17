@@ -1,0 +1,177 @@
+2025-04-03 18:28:01,544 - cli - ERROR - API key and secret are required. Set them in .env file or config.
+2025-04-03 18:28:33,592 - cli - INFO - Running trading bot
+2025-04-03 18:28:33,592 - integration - INFO - Инициализирован менеджер интеграции
+2025-04-03 18:28:33,592 - integration - INFO - Торговый бот успешно инициализирован
+2025-04-03 18:28:33,592 - integration - INFO - Запущен рабочий процесс торгового бота
+2025-04-03 18:28:33,592 - integration - INFO - Сбор данных о рынке...
+2025-04-03 18:28:33,620 - db.db_funcs - ERROR - Ошибка при создании/обновлении предмета: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_0', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,620 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 0: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_0', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,622 - db.db_funcs - ERROR - Ошибка при создании/обновлении предмета: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_1', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,623 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 1: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_1', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,625 - db.db_funcs - ERROR - Ошибка при создании/обновлении предмета: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_2', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,626 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 2: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_2', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,627 - db.db_funcs - ERROR - Ошибка при создании/обновлении предмета: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_3', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,628 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 3: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_3', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,629 - db.db_funcs - ERROR - Ошибка при создании/обновлении предмета: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_4', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,630 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 4: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_4', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,632 - db.db_funcs - ERROR - Ошибка при создании/обновлении предмета: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_5', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,632 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 5: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_5', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,634 - db.db_funcs - ERROR - Ошибка при создании/обновлении предмета: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_6', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,634 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 6: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_6', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,636 - db.db_funcs - ERROR - Ошибка при создании/обновлении предмета: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_7', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,636 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 7: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_7', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,638 - db.db_funcs - ERROR - Ошибка при создании/обновлении предмета: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_8', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,638 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 8: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_8', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,640 - db.db_funcs - ERROR - Ошибка при создании/обновлении предмета: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_9', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,640 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 9: (sqlite3.OperationalError) no such table: items
+[SQL: SELECT items.id AS items_id, items.item_id AS items_item_id, items.name AS items_name, items.market_hash_name AS items_market_hash_name, items.game AS items_game, items.category AS items_category, items.created_at AS items_created_at, items.updated_at AS items_updated_at 
+FROM items 
+WHERE items.item_id = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('item_9', 1, 0)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-04-03 18:28:33,641 - integration - INFO - Собраны данные о 10 предметах
+2025-04-03 18:28:33,641 - integration - INFO - Анализ возможностей арбитража...
+2025-04-03 18:28:33,641 - integration - INFO - Найдено 0 возможностей арбитража
+2025-04-03 18:28:33,641 - integration - INFO - Прогнозирование будущих возможностей...
+2025-04-03 18:28:33,642 - integration - INFO - Спрогнозировано 0 будущих возможностей арбитража
+2025-04-03 18:28:33,642 - integration - INFO - Не найдено подходящих возможностей для торговли
+2025-04-03 18:28:33,642 - integration - INFO - Ожидание 3600 секунд до следующего обновления...
+2025-04-03 18:29:41,729 - cli - INFO - Running trading bot
+2025-04-03 18:29:41,729 - integration - INFO - Инициализирован менеджер интеграции
+2025-04-03 18:29:41,730 - integration - INFO - Торговый бот успешно инициализирован
+2025-04-03 18:29:41,730 - integration - INFO - Запущен рабочий процесс торгового бота
+2025-04-03 18:29:41,730 - integration - INFO - Сбор данных о рынке...
+2025-04-03 18:29:41,751 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 0: Instance <Item at 0x23e1951cc10> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-04-03 18:29:41,759 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 1: Instance <Item at 0x23e19537910> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-04-03 18:29:41,766 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 2: Instance <Item at 0x23e194f1f90> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-04-03 18:29:41,773 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 3: Instance <Item at 0x23e19513bd0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-04-03 18:29:41,780 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 4: Instance <Item at 0x23e1954bdd0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-04-03 18:29:41,788 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 5: Instance <Item at 0x23e179f2c50> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-04-03 18:29:41,798 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 6: Instance <Item at 0x23e195666d0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-04-03 18:29:41,806 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 7: Instance <Item at 0x23e19573750> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-04-03 18:29:41,814 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 8: Instance <Item at 0x23e19572210> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-04-03 18:29:41,822 - integration - ERROR - Ошибка при сохранении данных о предмете Popular Item 9: Instance <Item at 0x23e19573290> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2025-04-03 18:29:41,822 - integration - INFO - Собраны данные о 10 предметах
+2025-04-03 18:29:41,822 - integration - INFO - Анализ возможностей арбитража...
+2025-04-03 18:29:41,823 - integration - INFO - Найдено 0 возможностей арбитража
+2025-04-03 18:29:41,823 - integration - INFO - Прогнозирование будущих возможностей...
+2025-04-03 18:29:41,823 - integration - INFO - Спрогнозировано 0 будущих возможностей арбитража
+2025-04-03 18:29:41,823 - integration - INFO - Не найдено подходящих возможностей для торговли
+2025-04-03 18:29:41,824 - integration - INFO - Ожидание 3600 секунд до следующего обновления...
+2025-04-05 19:14:06,620 - root - WARNING - Библиотека PuLP не установлена. Некоторые функции оптимизации будут недоступны.
+2025-04-05 19:14:06,624 - risk_assessment - INFO - База данных для оценки рисков успешно инициализирована

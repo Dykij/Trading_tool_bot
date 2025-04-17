@@ -1,0 +1,35 @@
+{
+    "include": [
+        "."
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        "**/.git",
+        "**/.venv/**",
+        "**/Lib/site-packages/**"
+    ],
+    "ignore": [
+        "dmarket_bot_env/Lib/site-packages/anyio/_backends/_asyncio.py",
+        ".venv/Lib/site-packages/_distutils_hack/__init__.py",
+        ".venv/Lib/site-packages/_pytest/**/*.py"
+    ],
+    "typeCheckingMode": "basic",
+    "extraPaths": ["./src", "./stubs", "./aiohttp-stubs"],
+    "useLibraryCodeForTypes": true,
+    "reportMissingImports": false,
+    "reportUnusedImport": false,
+    "reportArgumentType": false,
+    "reportReturnType": false,
+    "reportInvalidTypeArguments": false,
+    "reportCallIssue": false,
+    "reportIndexIssue": false,
+    "reportOperatorIssue": false,
+    "reportAttributeAccessIssue": false,
+    "reportUnusedExpression": false,
+    "reportOptionalMemberAccess": false,
+    "reportGeneralTypeIssues": false,
+    "reportAssignmentType": false,
+    "reportUndefinedVariable": false,
+    "stubPath": "stubs",
+}

@@ -1,0 +1,17 @@
+2025-04-10 15:21:20 - utils.security - WARNING - Используется стандартный ключ шифрования. Рекомендуется установить SECURITY_MASTER_KEY.
+2025-04-10 15:23:12 - utils.security - WARNING - Используется стандартный ключ шифрования. Рекомендуется установить SECURITY_MASTER_KEY.
+2025-04-10 15:23:12 - utils.security - INFO - AccessControl инициализирован с 0 разрешенными пользователями
+2025-04-10 15:23:12 - utils.security - INFO - RateLimiter инициализирован
+2025-04-10 15:23:12 - utils.security - INFO - AuthenticationManager инициализирован
+2025-04-10 15:25:59 - utils.security - WARNING - Используется стандартный ключ шифрования. Рекомендуется установить SECURITY_MASTER_KEY.
+2025-04-10 15:25:59 - utils.security - INFO - AccessControl инициализирован с 0 разрешенными пользователями
+2025-04-10 15:25:59 - utils.security - INFO - RateLimiter инициализирован
+2025-04-10 15:25:59 - utils.security - INFO - AuthenticationManager инициализирован
+2025-04-10 15:27:59 - utils.security - WARNING - Используется стандартный ключ шифрования. Рекомендуется установить SECURITY_MASTER_KEY.
+2025-04-10 15:27:59 - utils.security - INFO - AccessControl инициализирован с 0 разрешенными пользователями
+2025-04-10 15:27:59 - utils.security - INFO - RateLimiter инициализирован
+2025-04-10 15:27:59 - utils.security - INFO - AuthenticationManager инициализирован
+2025-04-10 15:30:02 - utils.security - WARNING - Используется стандартный ключ шифрования. Рекомендуется установить SECURITY_MASTER_KEY.
+2025-04-10 15:30:02 - utils.security - INFO - AccessControl инициализирован с 0 разрешенными пользователями
+2025-04-10 15:30:02 - utils.security - INFO - RateLimiter инициализирован
+2025-04-10 15:30:02 - utils.security - INFO - AuthenticationManager инициализирован

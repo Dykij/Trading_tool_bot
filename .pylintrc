@@ -1,0 +1,27 @@
+[MASTER]
+# Загрузка плагинов, например, для проверки типов
+# load-plugins=pylint.extensions.check_type
+
+# Игнорируемые директории
+ignore=dmarket_bot_env,venv,.venv,__pycache__,.git,.mypy_cache,.pytest_cache,build,dist,*.egg-info,logs,reports,docs,tmp,temp_fix,tmp_dir
+
+[MESSAGES CONTROL]
+# Отключаем нерелевантные или конфликтующие проверки
+# C0103: invalid-name (слишком строгие имена)
+# W0611: unused-import (обрабатывается isort/autoflake)
+# R0903: too-few-public-methods
+# W0703: broad-except (иногда необходимо)
+# R0913: too-many-arguments (может быть нужно для некоторых функций)
+# C0111: missing-docstring (пока отключаем, можно включить позже)
+disable=C0103,W0611,R0903,W0703,R0913,C0111
+
+# Можно включить специфичные проверки
+# enable=
+
+[REPORTS]
+# Не генерировать отчеты по умолчанию
+reports=no
+
+[FORMAT]
+# Максимальная длина строки
+max-line-length=100

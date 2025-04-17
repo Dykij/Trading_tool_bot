@@ -1,0 +1,122 @@
+# Конфигурация DMarket Trading Bot
+
+# Общие настройки
+app:
+  name: "DMarket Trading Bot"
+  version: "1.0.0"
+  debug: true
+  log_level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+
+# Настройки API DMarket
+api:
+  base_url: "https://api.dmarket.com"
+  timeout: 30  # Таймаут запросов в секундах
+  max_retries: 3  # Максимальное количество повторных попыток
+  retry_delay: 2  # Задержка между повторными попытками в секундах
+  rate_limit: 100  # Максимальное количество запросов в минуту
+  cache_time: 300  # Время кэширования запросов в секундах
+  dmarket:
+    url: https://api.dmarket.com
+    version: v1
+    rate_limit: 5  # Запросов в секунду
+  steam:
+    url: https://api.steampowered.com
+    version: v2
+    rate_limit: 1  # Запросов в секунду
+
+# Настройки телеграм-бота
+telegram:
+  admin_ids: [123456789]  # ID администраторов бота
+  notification_interval: 3600  # Интервал отправки уведомлений в секундах
+  items_per_page: 10  # Количество предметов на странице при пагинации
+  max_message_length: 4096  # Максимальная длина сообщения Telegram
+
+# Настройки базы данных
+database:
+  sqlite:
+    path: "db/dmarket_bot.db"
+  
+  # Настройки для PostgreSQL (если используется)
+  postgres:
+    host: "localhost"
+    port: 5432
+    database: "dmarket_bot"
+    user: "postgres"
+    password: ""  # Используйте переменные окружения для хранения пароля
+
+# Настройки редиса (если используется)
+redis:
+  host: "localhost"
+  port: 6379
+  db: 0
+  prefix: "dmarket_bot:"
+  use_for_fsm: true  # Использовать Redis для хранения состояний пользователей
+
+# Настройки режимов арбитража
+arbitrage:
+  # Режим "Разгон баланса"
+  balance_boost:
+    min_profit: 1.0  # Минимальная прибыль в USD
+    max_profit: 5.0  # Максимальная прибыль в USD
+    min_price: 0.5   # Минимальная цена предмета
+    max_price: 20.0  # Максимальная цена предмета
+    require_liquidity: false  # Требовать высокую ликвидность
+    max_items: 100  # Максимальное количество предметов для анализа
+  
+  # Режим "Средний трейдер"
+  medium_trader:
+    min_profit: 5.0
+    max_profit: 20.0
+    min_price: 5.0
+    max_price: 100.0
+    require_liquidity: true
+    max_items: 200
+  
+  # Режим "Trade Pro"
+  trade_pro:
+    min_profit: 20.0
+    max_profit: 100.0
+    min_price: 20.0
+    max_price: 500.0
+    require_liquidity: false
+    max_items: 500
+
+# Настройки игр
+games:
+  - code: "cs2"
+    name: "CS2"
+    enabled: true
+    fee: 0.07  # Стандартная комиссия
+    high_demand_fee: 0.02  # Комиссия для предметов высокого спроса
+  
+  - code: "dota2"
+    name: "Dota 2"
+    enabled: true
+    fee: 0.07
+    high_demand_fee: 0.02
+  
+  - code: "tf2"
+    name: "Team Fortress 2"
+    enabled: true
+    fee: 0.07
+    high_demand_fee: 0.02
+  
+  - code: "rust"
+    name: "Rust"
+    enabled: true
+    fee: 0.07
+    high_demand_fee: 0.02
+
+# Настройки мониторинга
+monitoring:
+  interval: 600  # Интервал мониторинга в секундах
+  notification_threshold: 5.0  # Порог для уведомлений (процент изменения цены)
+  use_webhooks: false  # Использовать вебхуки для уведомлений
+  webhook_url: ""  # URL для отправки вебхуков
+
+# Пути к файлам и директориям
+paths:
+  logs: "logs/"
+  reports: "reports/"
+  cache: "cache/"
+  exports: "exports/" 
